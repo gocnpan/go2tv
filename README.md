@@ -100,3 +100,28 @@ Author
 ------
 
 Alexandros Ballas <alex@ballas.org>
+
+## Q & A
+报错
+```text
+# github.com/go-gl/gl/v2.1/gl
+# [pkg-config --cflags  -- gl gl]
+Package gl was not found in the pkg-config search path.
+Perhaps you should add the directory containing `gl.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'gl' found
+Package gl was not found in the pkg-config search path.
+Perhaps you should add the directory containing `gl.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'gl' found
+# github.com/go-gl/glfw/v3.3/glfw
+In file included from ./glfw/src/internal.h:188,
+                 from ./glfw/src/context.c:30,
+                 from /home/ap/data/software/go/pkg/mod/github.com/go-gl/glfw/v3.3/glfw@v0.0.0-20240307211618-a69d953ea142/c_glfw.go:4:
+./glfw/src/x11_platform.h:33:10: fatal error: X11/Xlib.h: No such file or directory
+   33 | #include <X11/Xlib.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [Makefile:5：build] 错误 1
+```
+解决方法：`sudo apt-get install golang gcc libgl1-mesa-dev xorg-dev`
