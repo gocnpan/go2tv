@@ -15,8 +15,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/alexballas/go2tv/soapcalls"
-	"github.com/alexballas/go2tv/soapcalls/utils"
+	"github.com/gocnpan/go2tv/soapcalls"
+	"github.com/gocnpan/go2tv/soapcalls/utils"
 )
 
 // HTTPserver - new http.Server instance.

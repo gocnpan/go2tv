@@ -47,7 +47,7 @@ MIT
 	}
 	githubbutton := widget.NewButton("Github page", func() {
 		go func() {
-			u, _ := url.Parse("https://github.com/alexballas/go2tv")
+			u, _ := url.Parse("https://github.com/gocnpan/go2tv")
 			_ = fyne.CurrentApp().OpenURL(u)
 		}()
 	})
@@ -84,7 +84,7 @@ func checkVersion(s *NewScreen) {
 		return
 	}
 
-	req, err := http.NewRequest("GET", "https://github.com/alexballas/Go2TV/releases/latest", nil)
+	req, err := http.NewRequest("GET", "https://github.com/gocnpan/go2tv/releases/latest", nil)
 	if err != nil {
 		dialog.ShowError(errVersionGet, s.Current)
 	}

@@ -20,9 +20,9 @@ import (
 	"fyne.io/fyne/v2/layout"
 	"fyne.io/fyne/v2/theme"
 	"fyne.io/fyne/v2/widget"
-	"github.com/alexballas/go2tv/devices"
-	"github.com/alexballas/go2tv/soapcalls"
-	"github.com/alexballas/go2tv/soapcalls/utils"
+	"github.com/gocnpan/go2tv/devices"
+	"github.com/gocnpan/go2tv/soapcalls"
+	"github.com/gocnpan/go2tv/soapcalls/utils"
 	"golang.org/x/time/rate"
 )
 

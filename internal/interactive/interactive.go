@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/alexballas/go2tv/soapcalls"
 	"github.com/gdamore/tcell/v2"
+	"github.com/gocnpan/go2tv/soapcalls"
 	"github.com/mattn/go-runewidth"
 )
 

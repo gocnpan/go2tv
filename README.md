@@ -7,17 +7,17 @@
 <div align="center">
 <p>
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/alexballas/Go2TV)](https://goreportcard.com/report/github.com/alexballas/Go2TV)
-[![Release Version](https://img.shields.io/github/v/release/alexballas/Go2TV?label=Release)](https://github.com/alexballas/Go2TV/releases/latest)
-[![Tests](https://github.com/alexballas/go2tv/actions/workflows/go.yml/badge.svg?branch=devel)](https://github.com/alexballas/go2tv/actions/workflows/go.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/gocnpan/go2tv)](https://goreportcard.com/report/github.com/gocnpan/go2tv)
+[![Release Version](https://img.shields.io/github/v/release/alexballas/Go2TV?label=Release)](https://github.com/gocnpan/go2tv/releases/latest)
+[![Tests](https://github.com/gocnpan/go2tv/actions/workflows/go.yml/badge.svg?branch=devel)](https://github.com/gocnpan/go2tv/actions/workflows/go.yml)
 
-[![Build for ARMv6 (32-bit)](https://github.com/alexballas/go2tv/actions/workflows/build-arm.yml/badge.svg?branch=devel)](https://github.com/alexballas/go2tv/actions/workflows/build-arm.yml)
-[![Build for ARMv8 (64-bit)](https://github.com/alexballas/go2tv/actions/workflows/build-arm64.yml/badge.svg?branch=devel)](https://github.com/alexballas/go2tv/actions/workflows/build-arm64.yml)
-[![Build for Android](https://github.com/alexballas/go2tv/actions/workflows/build-android.yml/badge.svg?branch=devel)](https://github.com/alexballas/go2tv/actions/workflows/build-android.yml)
-[![Build for Linux](https://github.com/alexballas/go2tv/actions/workflows/build-linux.yml/badge.svg?branch=devel)](https://github.com/alexballas/go2tv/actions/workflows/build-linux.yml)
-[![Build for MacOS Intel](https://github.com/alexballas/go2tv/actions/workflows/build-mac-intel.yml/badge.svg?branch=devel)](https://github.com/alexballas/go2tv/actions/workflows/build-mac-intel.yml)
-[![Build for MacOS Apple Silicon](https://github.com/alexballas/go2tv/actions/workflows/build-mac.yml/badge.svg?branch=devel)](https://github.com/alexballas/go2tv/actions/workflows/build-mac.yml)
-[![Build for Windows](https://github.com/alexballas/go2tv/actions/workflows/build-windows.yml/badge.svg?branch=devel)](https://github.com/alexballas/go2tv/actions/workflows/build-windows.yml)
+[![Build for ARMv6 (32-bit)](https://github.com/gocnpan/go2tv/actions/workflows/build-arm.yml/badge.svg?branch=devel)](https://github.com/gocnpan/go2tv/actions/workflows/build-arm.yml)
+[![Build for ARMv8 (64-bit)](https://github.com/gocnpan/go2tv/actions/workflows/build-arm64.yml/badge.svg?branch=devel)](https://github.com/gocnpan/go2tv/actions/workflows/build-arm64.yml)
+[![Build for Android](https://github.com/gocnpan/go2tv/actions/workflows/build-android.yml/badge.svg?branch=devel)](https://github.com/gocnpan/go2tv/actions/workflows/build-android.yml)
+[![Build for Linux](https://github.com/gocnpan/go2tv/actions/workflows/build-linux.yml/badge.svg?branch=devel)](https://github.com/gocnpan/go2tv/actions/workflows/build-linux.yml)
+[![Build for MacOS Intel](https://github.com/gocnpan/go2tv/actions/workflows/build-mac-intel.yml/badge.svg?branch=devel)](https://github.com/gocnpan/go2tv/actions/workflows/build-mac-intel.yml)
+[![Build for MacOS Apple Silicon](https://github.com/gocnpan/go2tv/actions/workflows/build-mac.yml/badge.svg?branch=devel)](https://github.com/gocnpan/go2tv/actions/workflows/build-mac.yml)
+[![Build for Windows](https://github.com/gocnpan/go2tv/actions/workflows/build-windows.yml/badge.svg?branch=devel)](https://github.com/gocnpan/go2tv/actions/workflows/build-windows.yml)
 </p>
 Cast your media files to UPnP/DLNA Media Renderers and Smart TVs.
 </div>
@@ -69,13 +69,13 @@ Build requirements and dependencies
 
 Since the repo provides a [Dockerfile](./Dockerfile), you can build a Go2TV Docker image and run it with just Docker installed (no build requirements and deps above needed). Also, no Git repo cloning is needed (Docker will do it behind the scenes). Just issue:
 ``` console
-$ docker build --force-rm [--pull] -t go2tv github.com/alexballas/go2tv#main
+$ docker build --force-rm [--pull] -t go2tv github.com/gocnpan/go2tv#main
 ```
 Notice the branch name after the `#`, as the above will build `main`. You can also build `devel` if you want to build the latest code. Usage under Docker is outside this document's scope, check Docker docs for more information, specially volume mounts and networking. [x11docker](https://github.com/mviereck/x11docker) might come handy to run GUI mode, although it's not tested, since main Docker usage is CLI.
 
 Quick Start
 -----
-Download the app here https://github.com/alexballas/Go2TV/releases/latest. A single executable. No installation or external dependencies.
+Download the app here https://github.com/gocnpan/go2tv/releases/latest. A single executable. No installation or external dependencies.
 
 **Transcoding**
 

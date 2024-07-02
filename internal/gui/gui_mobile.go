@@ -16,8 +16,8 @@ import (
 	"fyne.io/fyne/v2/dialog"
 	"fyne.io/fyne/v2/theme"
 	"fyne.io/fyne/v2/widget"
-	"github.com/alexballas/go2tv/httphandlers"
-	"github.com/alexballas/go2tv/soapcalls"
+	"github.com/gocnpan/go2tv/httphandlers"
+	"github.com/gocnpan/go2tv/soapcalls"
 	"github.com/pkg/errors"
 )
 
