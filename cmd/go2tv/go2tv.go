@@ -20,7 +20,7 @@ import (
 
 	"github.com/gocnpan/go2tv/devices"
 	"github.com/gocnpan/go2tv/httphandlers"
-	"github.com/gocnpan/go2tv/interactive"
+	"github.com/gocnpan/go2tv/internal/interactive"
 	"github.com/gocnpan/go2tv/internal/gui"
 	"github.com/gocnpan/go2tv/soapcalls"
 	"github.com/gocnpan/go2tv/soapcalls/utils"
