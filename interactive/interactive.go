@@ -30,7 +30,7 @@ func NewController(tv *soapcalls.TVPayload, server *httphandlers.HTTPserver) *Co
 }
 
 func (c *Controller) Init() error {
-	time.Sleep(300 * time.Millisecond)
+	time.Sleep(10 * time.Millisecond)
 	// Sending the Play1 action sooner may result
 	// in a panic error since we need to properly
 	// initialize the tcell window.
